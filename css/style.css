@@ -1,0 +1,84 @@
+/* Font family */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+/* Header Start */
+.container {
+    width: 1140px;
+    margin: 20px auto;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+}
+
+.nav-middle ul li {
+    list-style: none;
+}
+
+.nav-middle ul li a {
+    text-decoration: none;
+    color: #112B3C;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.nav-middle ul li:hover a {
+    color: #000000;
+    ;
+}
+
+.button-right {
+    color: #112B3C;
+}
+
+.b-contact {
+    background-color: white;
+    padding: 10px 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+}
+
+.button-right:hover .b-contact {
+    background: #F66B0E;
+    color: white;
+}
+
+.b-buy {
+    background: #F66B0E;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+}
+
+.button-right:hover .b-buy {
+    background-color: white;
+    color: #112B3C;
+}
+
+/* Header End */
